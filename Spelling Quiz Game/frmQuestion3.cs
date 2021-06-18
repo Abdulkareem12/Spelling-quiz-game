@@ -16,5 +16,31 @@ namespace Spelling_Quiz_Game
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            lblcheck.Text = "You are incorrect! Click next to continue.";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            lblcheck.Text = "You are correct! Click next to continue.";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            lblcheck.Text = "You are incorrect! Click next to continue.";
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            lblcheck.Text = "You are incorrect! Click next to continue.";
+        }
+
+        private void lblNext_Click(object sender, EventArgs e)
+        {
+            frmQuestion4 f4 = new frmQuestion4();
+            f4.ShowDialog();
+        }
     }
 }

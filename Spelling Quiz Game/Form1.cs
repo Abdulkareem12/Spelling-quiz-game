@@ -16,7 +16,6 @@ namespace Spelling_Quiz_Game
         public Form1()
         {
             InitializeComponent();
-            
         }
 
         private void lblNext_Click(object sender, EventArgs e)
