@@ -17,11 +17,6 @@ namespace Spelling_Quiz_Game
             InitializeComponent();
         }
 
-        private void lblNext_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             lblcheck.Text = "You are correct! Click finish to return to levels page.";
@@ -40,6 +35,11 @@ namespace Spelling_Quiz_Game
         private void button4_Click(object sender, EventArgs e)
         {
             lblcheck.Text = "You are incorrect! Click finish to return to levels page.";
+        }
+
+        private void lblFinish_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

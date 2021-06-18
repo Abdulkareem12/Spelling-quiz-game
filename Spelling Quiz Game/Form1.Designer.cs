@@ -29,7 +29,6 @@ namespace Spelling_Quiz_Game
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblNext = new System.Windows.Forms.Button();
             this.lblcheck = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -37,23 +36,14 @@ namespace Spelling_Quiz_Game
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Spelling_Quiz_Game.Properties.Resources.apple;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 54);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(372, 206);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // lblNext
             // 
             this.lblNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNext.Location = new System.Drawing.Point(320, 391);
+            this.lblNext.Location = new System.Drawing.Point(309, 391);
             this.lblNext.Name = "lblNext";
             this.lblNext.Size = new System.Drawing.Size(75, 23);
             this.lblNext.TabIndex = 6;
@@ -123,6 +113,16 @@ namespace Spelling_Quiz_Game
             this.label1.TabIndex = 12;
             this.label1.Text = "What is the correct spelling for the word \"Apple\" in Afrikaans?";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Spelling_Quiz_Game.Properties.Resources.apple;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 54);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(372, 206);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 

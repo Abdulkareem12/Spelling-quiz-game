@@ -35,8 +35,8 @@ namespace Spelling_Quiz_Game
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.lblcheck = new System.Windows.Forms.Label();
-            this.lblNext = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblFinish = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,17 +104,6 @@ namespace Spelling_Quiz_Game
             this.lblcheck.TabIndex = 15;
             this.lblcheck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblNext
-            // 
-            this.lblNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNext.Location = new System.Drawing.Point(320, 391);
-            this.lblNext.Name = "lblNext";
-            this.lblNext.Size = new System.Drawing.Size(75, 23);
-            this.lblNext.TabIndex = 14;
-            this.lblNext.Text = "Finish";
-            this.lblNext.UseVisualStyleBackColor = true;
-            this.lblNext.Click += new System.EventHandler(this.lblNext_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Spelling_Quiz_Game.Properties.Resources.vehicle;
@@ -125,19 +114,30 @@ namespace Spelling_Quiz_Game
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
+            // lblFinish
+            // 
+            this.lblFinish.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFinish.Location = new System.Drawing.Point(309, 392);
+            this.lblFinish.Name = "lblFinish";
+            this.lblFinish.Size = new System.Drawing.Size(75, 23);
+            this.lblFinish.TabIndex = 21;
+            this.lblFinish.Text = "Finish";
+            this.lblFinish.UseVisualStyleBackColor = true;
+            this.lblFinish.Click += new System.EventHandler(this.lblFinish_Click);
+            // 
             // frmQuestion5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(407, 426);
+            this.Controls.Add(this.lblFinish);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblcheck);
-            this.Controls.Add(this.lblNext);
             this.Controls.Add(this.pictureBox1);
             this.Name = "frmQuestion5";
             this.Text = "frmQuestion5";
@@ -154,7 +154,7 @@ namespace Spelling_Quiz_Game
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblcheck;
-        private System.Windows.Forms.Button lblNext;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button lblFinish;
     }
 }

@@ -106,7 +106,7 @@ namespace Spelling_Quiz_Game
             // lblNext
             // 
             this.lblNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNext.Location = new System.Drawing.Point(320, 381);
+            this.lblNext.Location = new System.Drawing.Point(309, 391);
             this.lblNext.Name = "lblNext";
             this.lblNext.Size = new System.Drawing.Size(75, 23);
             this.lblNext.TabIndex = 22;
