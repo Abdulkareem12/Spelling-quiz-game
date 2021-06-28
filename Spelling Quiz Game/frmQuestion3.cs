@@ -39,8 +39,8 @@ namespace Spelling_Quiz_Game
 
         private void lblNext_Click(object sender, EventArgs e)
         {
-            frmQuestion4 f4 = new frmQuestion4();
-            f4.ShowDialog();
+            frmQuestion4 f1 = new frmQuestion4();
+            f1.ShowDialog();
         }
     }
 }

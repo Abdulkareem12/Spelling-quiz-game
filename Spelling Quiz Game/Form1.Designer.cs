@@ -29,131 +29,85 @@ namespace Spelling_Quiz_Game
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblNext = new System.Windows.Forms.Button();
-            this.lblcheck = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.btnLevel1 = new System.Windows.Forms.Button();
+            this.btnLevel2 = new System.Windows.Forms.Button();
+            this.btnLevel3 = new System.Windows.Forms.Button();
+            this.lblHeading = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // lblNext
+            // btnLevel1
             // 
-            this.lblNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNext.Location = new System.Drawing.Point(309, 391);
-            this.lblNext.Name = "lblNext";
-            this.lblNext.Size = new System.Drawing.Size(75, 23);
-            this.lblNext.TabIndex = 6;
-            this.lblNext.Text = "Next";
-            this.lblNext.UseVisualStyleBackColor = true;
-            this.lblNext.Click += new System.EventHandler(this.lblNext_Click);
+            this.btnLevel1.BackColor = System.Drawing.Color.White;
+            this.btnLevel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLevel1.Location = new System.Drawing.Point(106, 107);
+            this.btnLevel1.Name = "btnLevel1";
+            this.btnLevel1.Size = new System.Drawing.Size(190, 53);
+            this.btnLevel1.TabIndex = 0;
+            this.btnLevel1.Text = "Level 1\r\nGrade 3-4\r\n";
+            this.btnLevel1.UseVisualStyleBackColor = false;
+            this.btnLevel1.Click += new System.EventHandler(this.btnLevel1_Click);
             // 
-            // lblcheck
+            // btnLevel2
             // 
-            this.lblcheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcheck.Location = new System.Drawing.Point(15, 366);
-            this.lblcheck.Name = "lblcheck";
-            this.lblcheck.Size = new System.Drawing.Size(380, 23);
-            this.lblcheck.TabIndex = 7;
-            this.lblcheck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnLevel2.BackColor = System.Drawing.Color.White;
+            this.btnLevel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLevel2.Location = new System.Drawing.Point(106, 194);
+            this.btnLevel2.Name = "btnLevel2";
+            this.btnLevel2.Size = new System.Drawing.Size(190, 53);
+            this.btnLevel2.TabIndex = 1;
+            this.btnLevel2.Text = "Level 2\r\nGrade 5-6\r\n";
+            this.btnLevel2.UseVisualStyleBackColor = false;
+            this.btnLevel2.Click += new System.EventHandler(this.btnLevel2_Click);
             // 
-            // button1
+            // btnLevel3
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 267);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(166, 41);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Appel";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnLevel3.BackColor = System.Drawing.Color.White;
+            this.btnLevel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLevel3.Location = new System.Drawing.Point(106, 282);
+            this.btnLevel3.Name = "btnLevel3";
+            this.btnLevel3.Size = new System.Drawing.Size(190, 53);
+            this.btnLevel3.TabIndex = 2;
+            this.btnLevel3.Text = "Level 3\r\nGrade 7\r\n";
+            this.btnLevel3.UseVisualStyleBackColor = false;
+            this.btnLevel3.Click += new System.EventHandler(this.btnLevel3_Click);
             // 
-            // button2
+            // lblHeading
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(218, 266);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(166, 41);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Apel";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(12, 315);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(166, 41);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Apeol";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(218, 315);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(166, 41);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "Apple";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(372, 38);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "What is the correct spelling for the word \"Apple\" in Afrikaans?";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Spelling_Quiz_Game.Properties.Resources.apple;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 54);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(372, 206);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.lblHeading.BackColor = System.Drawing.Color.DodgerBlue;
+            this.lblHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeading.Location = new System.Drawing.Point(70, 9);
+            this.lblHeading.Name = "lblHeading";
+            this.lblHeading.Size = new System.Drawing.Size(270, 47);
+            this.lblHeading.TabIndex = 3;
+            this.lblHeading.Text = "Levels";
+            this.lblHeading.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImage = global::Spelling_Quiz_Game.Properties.Resources.Background2;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(407, 426);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.lblcheck);
-            this.Controls.Add(this.lblNext);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.lblHeading);
+            this.Controls.Add(this.btnLevel3);
+            this.Controls.Add(this.btnLevel2);
+            this.Controls.Add(this.btnLevel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button lblNext;
-        private System.Windows.Forms.Label lblcheck;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label1;
+
+        private System.Windows.Forms.Button btnLevel1;
+        private System.Windows.Forms.Button btnLevel2;
+        private System.Windows.Forms.Button btnLevel3;
+        private System.Windows.Forms.Label lblHeading;
     }
 }
 

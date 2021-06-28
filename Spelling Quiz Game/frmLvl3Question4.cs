@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Spelling_Quiz_Game
 {
-    public partial class frmQuestion4 : Form
+    public partial class frmLvl3Question4 : Form
     {
-        public frmQuestion4()
+        public frmLvl3Question4()
         {
             InitializeComponent();
-        }
-
-        private void lblNext_Click(object sender, EventArgs e)
-        {
-            frmQuestion5 f1 = new frmQuestion5();
-            f1.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -35,12 +29,18 @@ namespace Spelling_Quiz_Game
 
         private void button3_Click(object sender, EventArgs e)
         {
-            lblcheck.Text = "You are incorrect! Click next to continue.";
+            lblcheck.Text = "You are correct! Click next to continue.";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            lblcheck.Text = "You are correct! Click next to continue.";
+            lblcheck.Text = "You are incorrect! Click next to continue.";
+        }
+
+        private void lblNext_Click(object sender, EventArgs e)
+        {
+            frmLvl3Question5 f3 = new frmLvl3Question5();
+            f3.ShowDialog();
         }
     }
 }

@@ -39,7 +39,8 @@ namespace Spelling_Quiz_Game
 
         private void lblFinish_Click(object sender, EventArgs e)
         {
-
+            Form1 f1 = new Form1();
+            f1.ShowDialog();
         }
     }
 }

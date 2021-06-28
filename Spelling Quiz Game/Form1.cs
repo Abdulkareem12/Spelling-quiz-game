@@ -18,31 +18,28 @@ namespace Spelling_Quiz_Game
             InitializeComponent();
         }
 
-        private void lblNext_Click(object sender, EventArgs e)
+        private void btnLevel1_Click(object sender, EventArgs e)
         {
-            frmQuestion2 f2 = new frmQuestion2();
+            frmQuestion1 f1 = new frmQuestion1();
+            f1.ShowDialog();
+        }
+
+        private void btnLevel2_Click(object sender, EventArgs e)
+        {
+            frmLvl2Question1 f2 = new frmLvl2Question1();
             f2.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnLevel3_Click(object sender, EventArgs e)
         {
-            lblcheck.Text = "You are correct! Click next to continue.";
+            frmLvl3Question1 f3 = new frmLvl3Question1();
+            f3.ShowDialog();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            lblcheck.Text = "You are incorrect! Click next to continue.";
+            Splashscreen splashform = new Splashscreen();
+            splashform.ShowDialog();
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            lblcheck.Text = "You are incorrect! Click next to continue.";
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            lblcheck.Text = "You are incorrect! Click next to continue.";
-        }
-
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace Spelling_Quiz_Game
 {
-    partial class frmQuestion2
+    partial class frmQuestion1
     {
         /// <summary>
         /// Required designer variable.
@@ -47,7 +47,7 @@ namespace Spelling_Quiz_Game
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(372, 38);
             this.label1.TabIndex = 28;
-            this.label1.Text = "What is the correct spelling for the word \"Books\" in Afrikaans?";
+            this.label1.Text = "What is the correct spelling for the word \"Apple\" in Afrikaans?";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button4
@@ -57,7 +57,7 @@ namespace Spelling_Quiz_Game
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(166, 41);
             this.button4.TabIndex = 27;
-            this.button4.Text = "Buke";
+            this.button4.Text = "Apele";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -68,7 +68,7 @@ namespace Spelling_Quiz_Game
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(166, 41);
             this.button3.TabIndex = 26;
-            this.button3.Text = "Bokke";
+            this.button3.Text = "Apeol";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -79,7 +79,7 @@ namespace Spelling_Quiz_Game
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(166, 41);
             this.button2.TabIndex = 25;
-            this.button2.Text = "Boke";
+            this.button2.Text = "Appel";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -90,7 +90,7 @@ namespace Spelling_Quiz_Game
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(166, 41);
             this.button1.TabIndex = 24;
-            this.button1.Text = "Boeke";
+            this.button1.Text = "Apel\r\n";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -116,7 +116,7 @@ namespace Spelling_Quiz_Game
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Spelling_Quiz_Game.Properties.Resources.books;
+            this.pictureBox1.Image = global::Spelling_Quiz_Game.Properties.Resources.apple;
             this.pictureBox1.Location = new System.Drawing.Point(12, 49);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(372, 206);
@@ -124,7 +124,7 @@ namespace Spelling_Quiz_Game
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             // 
-            // frmQuestion2
+            // frmQuestion1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -138,8 +138,8 @@ namespace Spelling_Quiz_Game
             this.Controls.Add(this.lblcheck);
             this.Controls.Add(this.lblNext);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "frmQuestion2";
-            this.Text = "frmQuestion2";
+            this.Name = "frmQuestion1";
+            this.Text = "frmQuestion1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

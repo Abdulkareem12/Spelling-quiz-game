@@ -52,6 +52,72 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLvl2Question1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLvl2Question1.Designer.cs">
+      <DependentUpon>frmLvl2Question1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLvl2Question2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLvl2Question2.Designer.cs">
+      <DependentUpon>frmLvl2Question2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLvl2Question3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLvl2Question3.Designer.cs">
+      <DependentUpon>frmLvl2Question3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLvl2Question4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLvl2Question4.Designer.cs">
+      <DependentUpon>frmLvl2Question4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLvl2Question5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLvl2Question5.Designer.cs">
+      <DependentUpon>frmLvl2Question5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLvl3Question1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLvl3Question1.Designer.cs">
+      <DependentUpon>frmLvl3Question1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLvl3Question2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLvl3Question2.Designer.cs">
+      <DependentUpon>frmLvl3Question2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLvl3Question3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLvl3Question3.Designer.cs">
+      <DependentUpon>frmLvl3Question3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLvl3Question4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLvl3Question4.Designer.cs">
+      <DependentUpon>frmLvl3Question4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLvl3Question5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLvl3Question5.Designer.cs">
+      <DependentUpon>frmLvl3Question5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuestion1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuestion1.Designer.cs">
+      <DependentUpon>frmQuestion1.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmQuestion2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,8 +144,47 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Splashscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashscreen.Designer.cs">
+      <DependentUpon>Splashscreen.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLvl2Question1.resx">
+      <DependentUpon>frmLvl2Question1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLvl2Question2.resx">
+      <DependentUpon>frmLvl2Question2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLvl2Question3.resx">
+      <DependentUpon>frmLvl2Question3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLvl2Question4.resx">
+      <DependentUpon>frmLvl2Question4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLvl2Question5.resx">
+      <DependentUpon>frmLvl2Question5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLvl3Question1.resx">
+      <DependentUpon>frmLvl3Question1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLvl3Question2.resx">
+      <DependentUpon>frmLvl3Question2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLvl3Question3.resx">
+      <DependentUpon>frmLvl3Question3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLvl3Question4.resx">
+      <DependentUpon>frmLvl3Question4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLvl3Question5.resx">
+      <DependentUpon>frmLvl3Question5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuestion1.resx">
+      <DependentUpon>frmQuestion1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuestion2.resx">
       <DependentUpon>frmQuestion2.cs</DependentUpon>
@@ -103,6 +208,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Splashscreen.resx">
+      <DependentUpon>Splashscreen.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -130,6 +238,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\vehicle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question mark.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question mark 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
